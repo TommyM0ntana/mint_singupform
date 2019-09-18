@@ -22,6 +22,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+button:hover {
+	cursor: pointer;
+}
+
 /* header */
 
 header {
@@ -164,6 +168,26 @@ form a {
 	border-radius: 6px;
 	font-size: 1rem;
 }
+
+/* fineprint-1 */
+
+.fineprint-1 {
+	margin-top: 1rem;
+}
+
+.fineprint-1 p  {
+	font-size: 11px;
+	line-height: 18px;
+	color: gray;
+	font-style: italic;
+}
+
+.fineprint-1 a {
+	display: inline;
+	color: blue;
+}
+
+
 /* fineprint-2 */
 
 .fineprint-2 {
@@ -176,11 +200,7 @@ form a {
 	background-color: #eceef1;
 	color: gray;
 }
-.fineprint-1 p  {
-display: inline;
-font-size: 11px;
 
-}
 	
 .fineprint-2 p {
 	display: inline;
@@ -193,15 +213,15 @@ font-size: 11px;
 /* footer */
 
 footer {
+	padding-bottom: 1rem;
 	margin-top: 2rem;
-	height: 3rem;
 	font-size: 12px;
 	text-align: center;
 	color: gray;
 }
 
-footer p {
-	padding: 0.5rem 0;
+.footer-links {
+	margin-bottom: 1rem;
 }
 
 .footer-links a {
