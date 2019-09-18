@@ -98,10 +98,12 @@ form {
 	background-color: white;
 }
 
+form .form-title {
+	padding: 2rem 0;
+}
+
 form p { 
   text-align: center;
-	padding: 5px;
-	margin-bottom: 5px;
 }
 
 form a {
