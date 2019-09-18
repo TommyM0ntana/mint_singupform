@@ -95,9 +95,20 @@ form {
 	margin-top: 1rem;
 	width: 75%;
 	min-height: 30rem;
-	background-color: green;
+	background-color: white;
 }
 
+form p { 
+  text-align: center;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+form a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
 /* footer */
 
 footer {
