@@ -41,7 +41,7 @@ header {
 }
 
 .header-text a {
-	text-decoration:none
+	text-decoration:none;
 }
 
 .signin-button {
@@ -111,8 +111,8 @@ form .form-title {
 	font-size: 1.5rem;
 }
 
-form p { 
-  text-align: center;
+form p {
+	text-align: center;
 }
 
 form a {
@@ -139,7 +139,7 @@ form a {
 	border-radius: 6px;
 }
 
-.input-container p  {
+.input-container p {
 	font-size: 10px;
 	text-align: left;
 	padding: 5px;
@@ -155,6 +155,7 @@ form a {
 	top: 3rem;
 	color: gainsboro;
 }
+
 /* submit */
 
 .submit {
@@ -175,7 +176,7 @@ form a {
 	margin-top: 1rem;
 }
 
-.fineprint-1 p  {
+.fineprint-1 p {
 	font-size: 11px;
 	line-height: 18px;
 	color: gray;
@@ -196,9 +197,9 @@ form a {
 	justify-content: center;
 	align-items: center;
 	height: 5rem;
-	font-size: 12px;	
+	font-size: 12px;
 	background-color: #eceef1;
-	color: gray;
+ color: gray;
 }
 
 	
