@@ -130,6 +130,12 @@ form a {
 	border-radius: 6px;
 }
 
+.input-container p  {
+	font-size: 10px;
+	text-align: left;
+	padding: 5px;
+}
+
 .password-container {
 	position: relative;
 }
@@ -140,7 +146,15 @@ form a {
 	top: 3rem;
 	color: gainsboro;
 }
+/* submit */
 
+.submit {
+	padding: 10px;
+	margin: 10px;
+
+	background-color:#2f76c5;
+	color: white;
+}
 /* fineprint-2 */
 
 .fineprint-2 {
