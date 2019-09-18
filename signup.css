@@ -7,50 +7,101 @@
 */
 
 body {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #eceef1;
+}
+
+p {
+	margin: 0;
+	padding: 0;
 }
 
 /* header */
 
 header {
-    height: 3rem;
-    background-color: red;
+	padding: 0 1rem;
+	height: 3rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
-    width: 10px; 
-    height: 10px;
-    
-    
-
+.header-text {
+	font-size: 12px;
 }
-.Sing_in {
 
+.header-text a {
+	text-decoration:none
 }
+
+.signin-button {
+	margin-left: 1rem;
+	height: 2rem;
+	width: 6rem;
+	color: white;
+	background-color: #2f76c5;
+	border-radius: 6px;
+	border: solid thin black;
+}
+
+.signin-button i {
+	margin-right: 6px;
+}
+
 /* title */
 
 .title {
-    height: 6rem;
-    background-color: blue;
+	height: 6rem;
+}
+
+.logo-container {
+	margin: 0 auto;
+	margin-top: 1rem;
+	width: 6rem;
+}
+
+.intuit-logo {
+	width: 6rem;
+	height: auto;
+}
+
+.minor-logos {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+}
+
+.minor-logos div {
+	display: flex;
+	align-items: center;
+}
+
+.minor-logos p {
+	margin-left: 4px;
+	display: inline;
+}
+
+.minor-logos img {
+	margin-left: 1rem;
+	width: 1rem;
 }
 
 /* form */
 
 form {
-    margin: 0 auto;
-    margin-top: 1rem;
-    width: 75%;
-    min-height: 30rem;
-    background-color: green;
+	margin: 0 auto;
+	margin-top: 1rem;
+	width: 75%;
+	min-height: 30rem;
+	background-color: green;
 }
 
 /* footer */
 
 footer {
-    margin-top: 1rem;
-    height: 3rem;
-    background-color: purple; 
+	margin-top: 1rem;
+	height: 3rem;
+	background-color: purple; 
 }
