@@ -94,8 +94,8 @@ form {
 	margin: 0 auto;
 	margin-top: 1rem;
 	width: 75%;
-	min-height: 30rem;
 	background-color: white;
+	border: solid thin gainsboro;
 }
 
 form .form-title {
@@ -111,6 +111,57 @@ form a {
 	text-align: center;
 	display: block;
 }
+
+.input-container {
+	margin-top: 2rem;
+	padding-left: 2rem;
+}
+
+.input-container label {
+	display: block;
+}
+
+.input-container input {
+	padding-left: 1rem;
+	margin-top: 1rem;
+	width: 85%;
+	height: 2rem;
+	border: solid thin gainsboro;
+	border-radius: 6px;
+}
+
+.password-container {
+	position: relative;
+}
+
+.password-container i {
+	position: absolute;
+	right: 15%;
+	top: 3rem;
+	color: gainsboro;
+}
+
+/* fineprint-2 */
+
+.fineprint-2 {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5rem;
+	background-color: #eceef1;
+	font-size: 12px;
+	color: gray;
+}
+
+.fineprint-2 p {
+	display: inline;
+}
+
+.fineprint-2 a {
+	display: inline;
+}
+
 /* footer */
 
 footer {
