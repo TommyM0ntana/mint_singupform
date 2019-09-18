@@ -124,7 +124,7 @@ form a {
 .input-container input {
 	padding-left: 1rem;
 	margin-top: 1rem;
-	width: 85%;
+	width: 89%;
 	height: 2rem;
 	border: solid thin gainsboro;
 	border-radius: 6px;
@@ -142,18 +142,22 @@ form a {
 
 .password-container i {
 	position: absolute;
-	right: 15%;
+	right: 10%;
 	top: 3rem;
 	color: gainsboro;
 }
 /* submit */
 
 .submit {
-	padding: 10px;
-	margin: 10px;
-
+	padding: 1rem 0;
+	margin: 0 auto;
+	margin-top: 2rem;
+	width: 87%;
 	background-color:#2f76c5;
 	color: white;
+	display: block;
+	border-radius: 6px;
+	font-size: 1rem;
 }
 /* fineprint-2 */
 
@@ -163,8 +167,8 @@ form a {
 	justify-content: center;
 	align-items: center;
 	height: 5rem;
+	font-size: 12px;	
 	background-color: #eceef1;
-	font-size: 12px;
 	color: gray;
 }
 
