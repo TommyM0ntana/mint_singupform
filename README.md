@@ -1,4 +1,4 @@
-# [Simple Youtube UI Clone](https://raw.githack.com/TommyM0ntana/mint_singupform/dev/signup.html)
+# [Mint.com Sign Up Clone](https://raw.githack.com/TommyM0ntana/mint_singupform/dev/signup.html)
 This project consists of building an HTML document that matches the appearance of Mint's sign up form
 
 # Contributors
