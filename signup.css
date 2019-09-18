@@ -18,6 +18,10 @@ p {
 	padding: 0;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 /* header */
 
 header {
@@ -63,7 +67,7 @@ header {
 }
 
 .intuit-logo {
-	width: 6rem;
+	width: 8rem;
 	height: auto;
 }
 
@@ -100,6 +104,7 @@ form {
 
 form .form-title {
 	padding: 2rem 0;
+	font-size: 1.5rem;
 }
 
 form p { 
@@ -183,7 +188,23 @@ form a {
 /* footer */
 
 footer {
-	margin-top: 1rem;
+	margin-top: 2rem;
 	height: 3rem;
-	background-color: purple; 
+	font-size: 12px;
+	text-align: center;
+	color: gray;
+}
+
+footer p {
+	padding: 0.5rem 0;
+}
+
+.footer-links a {
+	margin: 0 0.5rem;
+	color: gray;
+	text-decoration: none;
+}
+
+.footer-links a:hover {
+	text-decoration: underline;
 }
