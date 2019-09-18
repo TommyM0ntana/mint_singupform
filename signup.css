@@ -41,7 +41,7 @@ header {
 }
 
 .header-text a {
-	text-decoration:none;
+	text-decoration: none;
 }
 
 .signin-button {
@@ -163,7 +163,7 @@ form a {
 	margin: 0 auto;
 	margin-top: 2rem;
 	width: 87%;
-	background-color:#2f76c5;
+	background-color: #2f76c5;
 	color: white;
 	display: block;
 	border-radius: 6px;
@@ -199,10 +199,10 @@ form a {
 	height: 5rem;
 	font-size: 12px;
 	background-color: #eceef1;
- color: gray;
+	color: gray;
 }
 
-	
+
 .fineprint-2 p {
 	display: inline;
 }
