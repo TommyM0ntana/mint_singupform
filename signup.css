@@ -176,7 +176,12 @@ form a {
 	background-color: #eceef1;
 	color: gray;
 }
+.fineprint-1 p  {
+display: inline;
+font-size: 11px;
 
+}
+	
 .fineprint-2 p {
 	display: inline;
 }
