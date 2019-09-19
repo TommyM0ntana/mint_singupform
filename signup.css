@@ -67,7 +67,7 @@ header {
 .logo-container {
   margin: 0 auto;
   margin-top: 1rem;
-  width: 6rem;
+  width: fit-content;
 }
 
 .intuit-logo {
