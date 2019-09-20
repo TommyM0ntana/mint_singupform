@@ -1,0 +1,234 @@
+/*
+  Table of contents
+  - header
+  - title
+  - form
+  - footer
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #eceef1;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* header */
+
+header {
+  padding: 0 1rem;
+  height: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-text {
+  font-size: 12px;
+}
+
+.header-text a {
+  text-decoration: none;
+}
+
+.signin-button {
+  margin-left: 1rem;
+  height: 2rem;
+  width: 6rem;
+  color: white;
+  background-color: #2f76c5;
+  border-radius: 6px;
+  border: solid thin black;
+}
+
+.signin-button i {
+  margin-right: 6px;
+}
+
+/* title */
+
+.title {
+  height: 6rem;
+}
+
+.logo-container {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: fit-content;
+}
+
+.intuit-logo {
+  width: 8rem;
+  height: auto;
+}
+
+.minor-logos {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.minor-logos div {
+  display: flex;
+  align-items: center;
+}
+
+form p {
+  text-align: center;
+}
+
+.minor-logos p {
+  margin-left: 4px;
+  display: inline;
+}
+
+.minor-logos img {
+  margin-left: 1rem;
+  width: 1rem;
+}
+
+/* form */
+
+form {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 75%;
+  background-color: white;
+  border: solid thin gainsboro;
+}
+
+form .form-title {
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.signup-form a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.input-container {
+  margin-top: 2rem;
+  padding-left: 2rem;
+}
+
+.input-container label {
+  display: block;
+}
+
+.input-container input {
+  padding-left: 1rem;
+  margin-top: 1rem;
+  width: 89%;
+  height: 2rem;
+  border: solid thin gainsboro;
+  border-radius: 6px;
+}
+
+.input-container p {
+  font-size: 10px;
+  text-align: left;
+  padding: 5px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container i {
+  position: absolute;
+  right: 10%;
+  top: 3rem;
+  color: gainsboro;
+}
+
+/* submit */
+
+.submit {
+  padding: 1rem 0;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 87%;
+  background-color: #2f76c5;
+  color: white;
+  display: block;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+/* fineprint-1 */
+
+.fineprint-1 {
+  margin-top: 1rem;
+}
+
+.fineprint-1 p {
+  font-size: 11px;
+  line-height: 18px;
+  color: gray;
+  font-style: italic;
+}
+
+.fineprint-1 a {
+  display: inline;
+  color: blue;
+}
+
+/* fineprint-2 */
+
+.fineprint-2 {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  font-size: 12px;
+  background-color: #eceef1;
+  color: gray;
+}
+
+.fineprint-2 p {
+  display: inline;
+}
+
+.fineprint-2 a {
+  display: inline;
+}
+
+/* footer */
+
+footer {
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  font-size: 12px;
+  text-align: center;
+  color: gray;
+}
+
+.footer-links {
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  margin: 0 0.5rem;
+  color: gray;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
